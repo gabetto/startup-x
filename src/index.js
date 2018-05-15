@@ -14,7 +14,7 @@ const Main = () => (
 	<Provider store={store}>
 		<Router>
 			<div>
-				<Route exact={true} path="/" component={Home} />
+				<Route exact={true} path="/" component={Home} />				
 			</div>
 		</Router>
 	</Provider>
